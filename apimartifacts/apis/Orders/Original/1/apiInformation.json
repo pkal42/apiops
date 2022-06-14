@@ -9,6 +9,7 @@
     "protocols": [
       "https"
     ],
+    "serviceUrl": "https://pkapimwksp.azure-api.net/orders",
     "subscriptionRequired": true
   }
 }

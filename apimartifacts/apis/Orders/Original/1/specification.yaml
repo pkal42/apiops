@@ -9,6 +9,7 @@ paths:
   /CustomerOrders:
     get:
       summary: CustomerOrders
+      description: CustomerOrders
       operationId: orders
       responses:
         '200':
