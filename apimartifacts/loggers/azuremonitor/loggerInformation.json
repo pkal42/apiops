@@ -1,7 +1,0 @@
-{
-  "name": "azuremonitor",
-  "properties": {
-    "isBuffered": true,
-    "loggerType": "azureMonitor"
-  }
-}
