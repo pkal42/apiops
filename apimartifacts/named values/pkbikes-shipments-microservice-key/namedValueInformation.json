@@ -1,0 +1,12 @@
+{
+  "name": "pkbikes-shipments-microservice-key",
+  "properties": {
+    "displayName": "pkbikes-shipments-microservice-key",
+    "secret": true,
+    "tags": [
+      "key",
+      "function",
+      "auto"
+    ]
+  }
+}

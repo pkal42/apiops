@@ -1,0 +1,10 @@
+{
+  "name": "gold-tier",
+  "properties": {
+    "displayName": "Gold Tier",
+    "approvalRequired": false,
+    "description": "Susbcribers will be able to run X calls per minute",
+    "state": "published",
+    "subscriptionRequired": true
+  }
+}
