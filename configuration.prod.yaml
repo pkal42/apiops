@@ -1,1 +1,17 @@
 apimServiceName: pkapimwksp-prod
+namedValues:
+  - name: TimeNow
+    displayName: TimeNow
+    value: @(DateTime.Now.ToString("hh:mm:ss tt"))
+loggers:
+    - name: pkapimwksp-ai
+      loggerType: applicationInsights
+      description: [app insight description goes here]
+      resourceId: "/subscriptions/fe5f965f-9f7f-4846-a2c7-957be7ad6de1/resourceGroups/pkapimwksp-prod-rg/providers/microsoft.insights/components/pkapimwksp-prod-ai"
+      credentials:
+        instrumentationKey: "{{Logger-Credentials--62a894a946346109e82820b1}}" 
+      isBuffered: true
+diagnostics:
+   - name: applicationinsights
+     verbosity: Verbose
+     loggerId: "/subscriptions/fe5f965f-9f7f-4846-a2c7-957be7ad6de1/resourceGroups/pkapimwksp-prod-rg/providers/Microsoft.ApiManagement/service/pkapimwksp-prod/loggers/pkapimwksp-prod-ai"       
