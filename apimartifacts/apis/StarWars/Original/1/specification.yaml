@@ -9,13 +9,15 @@ paths:
   /people/:
     get:
       summary: GetPeople
+      description: GetPeople
       operationId: getpeople
       responses:
         '200':
-          description: 
+          description: ''
   '/people/{id}/':
     get:
       summary: GetPeopleById
+      description: GetPeopleById
       operationId: getpeoplebyid
       parameters:
         - name: id
@@ -25,7 +27,7 @@ paths:
             type: ''
       responses:
         '200':
-          description: 
+          description: ''
 components:
   securitySchemes:
     apiKeyHeader:
