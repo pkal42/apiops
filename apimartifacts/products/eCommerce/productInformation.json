@@ -1,0 +1,10 @@
+{
+  "name": "ecommerce",
+  "properties": {
+    "displayName": "eCommerce",
+    "approvalRequired": false,
+    "description": "eCommerce Product, Provides Info on Orders and Shipments.",
+    "state": "published",
+    "subscriptionRequired": true
+  }
+}

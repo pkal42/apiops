@@ -1,0 +1,38 @@
+openapi: 3.0.1
+info:
+  title: Orders
+  description: ''
+  version: '1.0'
+servers:
+  - url: https://pkapimwksp.azure-api.net/orders
+paths:
+  /CustomerOrders:
+    get:
+      summary: CustomerOrders
+      operationId: orders
+      responses:
+        '200':
+          description: ''
+          content:
+            application/json:
+              example:
+                customer:
+                  - name: Smith
+                    amountDue: 345.34
+                  - name: Jones
+                    amountDue: 35.43
+                  - name: King
+                    amountDue: 45.14
+components:
+  securitySchemes:
+    apiKeyHeader:
+      type: apiKey
+      name: Ocp-Apim-Subscription-Key
+      in: header
+    apiKeyQuery:
+      type: apiKey
+      name: subscription-key
+      in: query
+security:
+  - apiKeyHeader: [ ]
+  - apiKeyQuery: [ ]

@@ -1,0 +1,12 @@
+{
+  "name": "productslearnapi-key",
+  "properties": {
+    "displayName": "productslearnapi-key",
+    "secret": true,
+    "tags": [
+      "key",
+      "function",
+      "auto"
+    ]
+  }
+}
