@@ -1,0 +1,12 @@
+{
+  "name": "escalator-fn-key",
+  "properties": {
+    "displayName": "escalator-fn-key",
+    "secret": true,
+    "tags": [
+      "key",
+      "function",
+      "auto"
+    ]
+  }
+}
