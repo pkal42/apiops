@@ -14,10 +14,10 @@ loggers:
     - name: eventhublogger
       loggerType: azureEventHub
       description: Event Hub Logger
-      resourceId: "/subscriptions/fe5f965f-9f7f-4846-a2c7-957be7ad6de1/resourceGroups/pkapimwksp-prod-rg/providers/Microsoft.ApiManagement/service/pkapimwksp-prod/loggers/ehprodlogger"
+      resourceId: "/subscriptions/fe5f965f-9f7f-4846-a2c7-957be7ad6de1/resourceGroups/pkapimwksp-prod-rg/providers/Microsoft.EventHub/namespaces/pkapimwksp-prod-eh"
       credentials:
         name: "apim-prod-eh"
-        instrumentationKey: "{{Logger-Credentials--62a8acfa46346109e82820bb}}" 
+        connectionString: "{{Logger-Credentials--62a8acfa46346109e82820bb}}" 
       isBuffered: true
 diagnostics:
    - name: applicationinsights
