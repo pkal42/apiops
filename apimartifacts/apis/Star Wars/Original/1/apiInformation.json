@@ -1,0 +1,15 @@
+{
+  "name": "star-wars",
+  "properties": {
+    "path": "sw",
+    "displayName": "Star Wars",
+    "apiRevision": "1",
+    "description": "",
+    "isCurrent": true,
+    "protocols": [
+      "https"
+    ],
+    "serviceUrl": "https://swapi.dev/api",
+    "subscriptionRequired": true
+  }
+}
