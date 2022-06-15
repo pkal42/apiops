@@ -9,7 +9,7 @@
     "protocols": [
       "https"
     ],
-    "serviceUrl": "https://calcapi.cloudapp.net/api",
+    "serviceUrl": "http://calcapi.cloudapp.net/api",
     "subscriptionRequired": true
   }
 }
